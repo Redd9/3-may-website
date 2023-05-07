@@ -10,29 +10,30 @@
 <body>
     <header>
         <nav class="header_nav">
-           <ol>
-            <li class="header_nav_item"><a href="#">Home</a></li>
-            <li class="header_nav_item"><a href="#">Product</a></li>
-            <li class="header_nav_item"><a href="#">Pricing</a></li>
-            <li class="header_nav_item"><a href="#">About</a></li>
-            <li class="header_nav_item"><a href="#">Contact</a></li>
-           </ol>
-
+           <ul>
+                <li class="header_nav_item"><a href="#">Home</a></li>
+                <li class="header_nav_item"><a href="#">Product</a></li>
+                <li class="header_nav_item"><a href="#">Pricing</a></li>
+                <li class="header_nav_item"><a href="#">About</a></li>
+                <li class="header_nav_item"><a href="#">Contact</a></li>
+           </ul>
 
             <img src="img/logo.png" alt="logo">
 
             <div class="header_social">
-                <li class="header_social_icon">
-                    <img src="#" alt="twitter">
-                </li>
-                
-                <li class="header_social_icon">
-                    <img src="#" alt="facebook">
-                </li>
-
-                <li class="header_social_icon">
-                    <img src="#" alt="linkedin">
-                </li>
+                <ul>
+                    <li class="header_social_icon">
+                        <img src="img/twitter.png" alt="twitter">
+                    </li>
+                    
+                    <li class="header_social_icon">
+                        <img src="img/facebook.png" alt="facebook">
+                    </li>
+    
+                    <li class="header_social_icon">
+                        <img src="img/linkdin.png" alt="linkedin">
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -40,11 +41,95 @@
             <h1>The best products start with Figma</h1>
             <p class="header_descr">Most calendars are designed for teams. Slate is designed for freelancers</p>
 
-            <a href="#" class="header_btn">Try For Free</a>
+            <a href="#" class="btn header_btn">Try For Free</a>
         </div>
     </header>
-    <main>
 
+    <main>
+        <div class="features">
+            <h3 class="title">Features</h3>
+            <p>Most calendars are designed for teams. 
+                Slate is designed for freelancers
+            </p>
+
+            <div class="features__list">
+
+                <div class="div features__list-item">
+
+                    <img src="img/features/features1.png" alt="features1" class="features__icon">
+                    
+                    <h4>OpenType features Variable fonts</h4>
+                    <p class="features__descr">
+                        Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.
+                    </p>
+                </div>
+
+                <div class="div features__list-item">
+
+                    <img src="img/features/features2.png" alt="features2" class="features__icon">
+                    
+                    <h4>Design with real data</h4>
+                    <p class="features__descr">
+                        Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.
+                    </p>
+                </div>
+                
+                <div class="div features__list-item">
+                    
+                    <img src="img/features/features3.png" alt="features3" class="features__icon">
+                    
+                    <h4>Fastest way to take action</h4>
+                    <p class="features__descr">
+                        Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="features__video">
+                <video src="#">video is missing now</video>
+            </div>
+        </div>
+
+        <div class="promo">
+            <h3 class="title">Fastest way to organize</h3>
+
+            <p class="promo__descr">
+                Most calendars are designed for teams. 
+                Slate is designed for freelancers
+            </p>
+
+            <a href="#" class="btn">Try For Free</a>
+
+            <img src="img/promo-image.png" alt="laptop" class="promo__img">
+        </div>
+
+        <div class="subscribtion">
+            <img src="img/subscription.png" alt="email subscribtion" class="subscribtion__img"> 
+
+            <div class="subscribtion__form">
+
+                <h4>At your fingertips</h4>
+                <h3 class="title">Lightning fast prototyping</h3>
+
+                <h4>Subscribe to our Newsletter</h4>
+                <p class="subscribtion__descr">
+                    Available exclusivery on Figmaland
+                </p>
+
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
     </main>
     <footer>
 
